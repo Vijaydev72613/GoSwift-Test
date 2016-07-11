@@ -2,6 +2,7 @@
 
 Make sure cocoa pods are installed.
 Open the workspace and run the project.
+Supports from iOS 8.0 and above. Developed using XCode 7.3.1.
 
 All the below are completed based on the best practice and best coding guidelines.
 
