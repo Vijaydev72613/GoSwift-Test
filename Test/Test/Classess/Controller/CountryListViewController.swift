@@ -9,7 +9,6 @@
 import UIKit
 import SQLite
 import SDWebImage
-import FMDB
 
 // MARK: - Class -
 
@@ -49,9 +48,9 @@ class CountryListViewController: ViewController {
         if !fileManager.fileExistsAtPath(fileURL!) {
             let urlString = "https://github.com/tknizam/goswiff-mobile-test/blob/master/data/GoSwiff.db?raw=true"
             let url = NSURL(string: urlString)!
-
+            
             let data = NSData(contentsOfURL: url)!
-
+            
             data.writeToFile(fileURL!, atomically: true)
 
         }

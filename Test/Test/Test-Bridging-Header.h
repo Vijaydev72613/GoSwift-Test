@@ -8,5 +8,4 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <FMDB/FMDB.h>
 #import <SDWebImage/SDImageCache.h>
