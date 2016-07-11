@@ -1,0 +1,15 @@
+PODS:
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SQLite.swift (0.10.1)
+
+DEPENDENCIES:
+  - SDWebImage (~> 3.7)
+  - SQLite.swift (~> 0.10.1)
+
+SPEC CHECKSUMS:
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SQLite.swift: 6a6e4b034efc317ce4e203b6af2d3024fee2b570
+
+COCOAPODS: 0.39.0
